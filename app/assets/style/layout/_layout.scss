@@ -1,0 +1,54 @@
+body{
+    margin-right: 12px;
+    margin-left: 12px;
+    font-family: 'Lato', sans-serif;
+}
+aside{
+    padding-top: 32px;
+    background-color: $gray-100;
+    .logo a{
+        margin-left: 32px;
+        display: block;
+        width: 150px;
+        height: 40px;
+        background-image: url(../images/logo-ANSWER.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-indent: 101%;
+        overflow: hidden;
+        white-space: nowrap;
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+    .option{
+        height: calc(100vh - 80px);
+        margin-left: 16px;
+    }
+    .list-group-item:first-child {
+        border-radius: 0px;
+    }
+    .list-group-item{
+        background-color: transparent;
+        border: 0px;
+        span{
+            vertical-align: middle;
+            margin-right: 16px;
+        }
+    }
+    .list-group-item.active{
+        color: $success;
+        background-color: transparent;
+        border-left: 4px solid $success;
+    }
+    .card{
+        img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        }
+        .col-1{
+            border: 0px;
+        }
+    }
+}
