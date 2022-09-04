@@ -11563,10 +11563,117 @@ fieldset:disabled .btn {
   }
 }
 
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
+body {
+  margin-right: 12px;
+  margin-left: 12px;
+  font-family: 'Lato', sans-serif;
+}
+
+aside {
+  padding-top: 32px;
+  background-color: #f8f9fa;
+}
+
+aside .logo a {
+  margin-left: 32px;
+  display: block;
+  width: 150px;
+  height: 40px;
+  background-image: url(../images/logo-ANSWER.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+aside .logo a:hover {
+  opacity: 0.6;
+}
+
+aside .option {
+  height: calc(100vh - 80px);
+  margin-left: 16px;
+}
+
+aside .list-group-item:first-child {
+  border-radius: 0px;
+}
+
+aside .list-group-item {
+  background-color: transparent;
+  border: 0px;
+}
+
+aside .list-group-item span {
+  vertical-align: middle;
+  margin-right: 16px;
+}
+
+aside .list-group-item.active {
+  color: #198754;
+  background-color: transparent;
+  border-left: 4px solid #198754;
+}
+
+aside .card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+aside .card .col-1 {
+  border: 0px;
+}
+
+main {
+  padding-top: 32px;
+  margin: 0 auto;
+}
+
+main .title {
+  margin-bottom: 48px;
+}
+
+main .title span {
+  vertical-align: middle;
+  color: #198754;
+}
+
+main .title a {
+  color: #000;
+  text-decoration: none;
+}
+
+main .title a:hover {
+  opacity: 0.6;
+}
+
+main .title-link span {
+  color: #000;
+}
+
+main table span {
+  color: #000;
+}
+
+main table a {
+  text-decoration: none;
+  color: #000;
+}
+
+main table a:hover {
+  opacity: 0.6;
+  color: #000;
+}
+
+main .page-link {
+  color: #198754;
+}
+
+main .page-item.active .page-link {
+  background-color: #198754;
+  border-color: #198754;
 }
 
 /*# sourceMappingURL=all.css.map */
